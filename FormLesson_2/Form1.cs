@@ -38,7 +38,7 @@ namespace FormLesson_2 {
             
             form1.Show();
             void Button_Click1(object sender, EventArgs e) {
-                ComboBox.Items.Add("Третий");
+                comboBox.Items.Add("Третий");
                 Form2 form2 = new Form2();
                 form2.ShowDialog();
 
